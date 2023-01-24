@@ -7,7 +7,7 @@ int main()
     const int hoursPerClass = 3;
 
     int numberOfClasses;
-    int number_of_classes;
+    // int number_of_classes;
     cout << "Enter the total number of classes: ";
     cin >> numberOfClasses;
 
