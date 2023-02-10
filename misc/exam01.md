@@ -2,8 +2,10 @@
 
 ## Overview
 - Chapters 1 - 5
-- Multiple Choice True / false section
-- Free Response section
+- Mostly free response / short question answer type questions. 
+- May have a few multiple choice questions
+- Mostly going to be testing your knowledge on understanding coding snippets and what is output
+- Will consist of 1 or 2 short code exercises (5 - 10 lines of code max)
 - No electronics
 - 1 3x5 handwritten notecard allowed for notes (front and back)
 - Have full class time to complete exam
