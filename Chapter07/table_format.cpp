@@ -13,7 +13,7 @@ void printRow(const int data[], const int &size)
     {
         // add manipulators to make this better!
 
-        cout << setw(7) << left << data[i] << ' ';
+        cout << left << setw(6) << data[i] << ' ';
     }
     cout << endl;
 }

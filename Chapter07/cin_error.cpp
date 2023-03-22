@@ -7,7 +7,7 @@ int main()
     int number;
 
     cout << "Enter a number: " << endl;
-    cin >> number;
+    cin >> number; // hello
 
     while (cin.fail())
     {
@@ -15,7 +15,8 @@ int main()
         cin.clear();
 
         // Ignore characters in stream until newline
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cin.ignore();                                        // ignore 1 char
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // ignores all characters
 
         cout << "Try again: " << endl;
         cin >> number;
