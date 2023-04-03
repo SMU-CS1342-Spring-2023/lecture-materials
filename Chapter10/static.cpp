@@ -42,5 +42,7 @@ int main()
     cout << "Store 3's ID: " << store3.getId() << endl;
     cout << "Next ID: " << Store::getNextId() << endl;
 
+    Store store4("PetsMart", "Pet Store"); // 104 | 105
+
     return 0;
 }

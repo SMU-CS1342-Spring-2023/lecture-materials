@@ -13,7 +13,7 @@ public:
     double getQuantity() const;
     void Print() const;
 
-    bool operator<(const Bucket &b2) { return quantity < b2.quantity; }
+    bool operator<(const Bucket &b2) { return this->quantity < b2.quantity; }
     bool operator>(const Bucket &b2) { return quantity > b2.quantity; }
     bool operator==(const Bucket &b2) { return quantity == b2.quantity; }
     Bucket operator+(const Bucket &b)
@@ -45,9 +45,9 @@ int main()
 {
     double x, y;
     cout << "Enter ounces in Bucket 1: ";
-    cin >> x;
-    cout << "Enterounces in Bucket 2: ";
-    cin >> y;
+    cin >> x; // 10
+    cout << "Enter ounces in Bucket 2: ";
+    cin >> y; // 20
 
     Bucket b1(x);
     b1.Print();
