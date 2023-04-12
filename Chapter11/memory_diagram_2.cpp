@@ -18,5 +18,8 @@ int main()
     *(data + 4) = *ptrA;
     *ptrA = data[0];
 
+    // Bonus
+    int **ptrZ = &ptrA;
+
     return 0;
 }
