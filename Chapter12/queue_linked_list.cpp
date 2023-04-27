@@ -67,9 +67,9 @@ int main() {
   queue->push(4);
   queue->push(5);
 
-  queue->pop();
-  queue->pop();
-  queue->pop();
+  queue->pop(); // 1
+  queue->pop(); // 2
+  queue->pop(); // 3
   queue->pop();
   queue->pop();
   queue->pop();
