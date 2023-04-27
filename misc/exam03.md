@@ -35,3 +35,49 @@
         array[0] = 10;
         *(array + 1) = 20;
         ```
+- Rule of Three
+    - Know when to use rule of 3. Know how to implement said rule of 3
+    - Destructor
+    - Copy Constructor
+    - Copy Assignment Operator
+
+## Chapter 12 - Linked Lists, Stacks, Queues
+- Linked Lists
+    - Nodes -> Know what a node is and what makes up a node. 
+    - Single vs Double Linked Lists
+    - Add items to a linked list
+    - remove items from linked list
+    - _Traversing a linked lists._
+
+- Linked Lists vs Vectors / Arrays
+
+- Stacks
+    - LIFO
+    - How to implement w. Linked List & Vector
+- Queues
+    - FIFO
+    - How to implement w. Linked List & Vector
+
+## Chapter 13 - Inheritance / Polymorphism
+- OOP
+    - Encapsulation
+    - Inheritance 
+    - Polymorphism
+- Inheritance 
+    - base
+    - derived
+    - data members: public, private, protected
+    - Constructors and lifecycle of objects with inheritance.
+        - initializer list for overriding base class constructor
+- Overriding vs Overloading functions
+- Polymorphism - Many forms
+    - Compile time polymorphism - overloading functions.
+    - Runtime polymorphism
+        - Pointers
+        - inheritance
+        - virtual keyword
+    - virtual keyword
+    - pure virtual function
+    - abstract class -> means we cannot create an instance of this class.
+    
+
